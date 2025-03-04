@@ -3,11 +3,15 @@
 console.log('-- begin --');
 
 /**
- * _
+ * Checks if a given string is a palindrome.
  *
- * @_ {_} _ - _
- * @_ {_}  _
+ * A palindrome is a word, phrase, or sequence that reads the same
+ * forward and backward (case-sensitive).
+ *
+ * @param {string} toCheck - The string to be checked.
+ * @returns {boolean} - Returns `true` if the string is a palindrome, otherwise `false`.
  */
+
 const isPalindrome = (toCheck) => {
   let reversed = '';
   for (const character of toCheck) {

@@ -3,8 +3,16 @@
 console.log('-- begin --');
 
 /**
+ * Counts the occurrences of a specific character in a given text.
  *
+ * This function checks how many times a given single character appears in the provided string.
+ * The comparison is case-sensitive.
+ *
+ * @param {string} text - The string in which to count occurrences.
+ * @param {string} toCount - The single character to count in the text.
+ * @returns {number} - The number of times the character appears in the text, or `-1` if `toCount` is not a single character.
  */
+
 const countCharacter = (text, toCount) => {
   if (toCount.length !== 1) {
     return -1;
